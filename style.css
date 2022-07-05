@@ -1,3 +1,36 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.orange {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.top-left {
+    width: 50%;
+    padding-top: 200px;
+    padding-left: 5%;
+    line-height: 133%;
+    display: inline-block;
+}
+.top-right{
+    width: 50%;
+    padding-right: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 700;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
 }
