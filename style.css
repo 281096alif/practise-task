@@ -11,26 +11,41 @@ h1 {
     color: orange;
 }
 
-section {
+.flex-container {
     display: flex;
 }
 
 .top-left {
     width: 50%;
-    padding-top: 200px;
     padding-left: 5%;
     line-height: 133%;
     display: inline-block;
+    padding-top: 150px;
 }
 .top-right{
     width: 50%;
-    padding-right: 5%;
+}
+.top-right img{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+.mid{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+
+}
+.mid-left{
+    width: 50%;
+}
+.mid-right{
+    width: 50%;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     font-weight: 700;
     color: white;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 30px;
 }
